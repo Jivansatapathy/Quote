@@ -30,4 +30,8 @@ body{
     height: 3px;
     border-radius: 3px;
     background: rgb(23, 124, 229);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
