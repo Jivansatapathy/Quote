@@ -17,6 +17,19 @@
         </div>
     </div>
 
+    <script>
+        
+        const api_url = "https://api.quotable.io/random";
+
+        async function getquote(url) {
+            const resonse = await fetch(url);
+            var(data) = await resonse.json();
+            console.log(data);         
+        }
+
+        getquote(api_url);
+        
+    </script>
 
 </body>
 </html>
