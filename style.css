@@ -23,6 +23,7 @@ body{
 .quote-box h2{
     font-size: 32px;
     margin-bottom: 40px;
+    position: relative;
 }
 .quote-box h2::after{
     content: '';
@@ -34,4 +35,8 @@ body{
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
+}
+.quote-box blockquote{
+    font-size: 26px;
+    min-height: 110px;
 }
