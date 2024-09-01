@@ -23,12 +23,12 @@
 
         async function getquote(url) {
             const resonse = await fetch(url);
-            var(data) = await resonse.json();
+            var data = await resonse.json();
             console.log(data);         
         }
 
         getquote(api_url);
-        
+
     </script>
 
 </body>
