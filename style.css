@@ -55,12 +55,12 @@ body{
     height: 2px;
     background: rgb(23, 124, 229);
     position: absolute;
-    top: 50px;
+    top: 10px;
     left: -30px;
 }
 .quote-box div{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
